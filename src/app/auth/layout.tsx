@@ -31,8 +31,17 @@ const Layout = async({children}:Props) => {
                 Corinna is capable of capturing lead information without a form...{''}
                 <br/>
                 something never done before 😊
-
             </p>
+            <Image src="/images/app-ui.png"
+            alt="LOGO"
+            sizes="100vw"
+            style={{
+                width:'90%',
+                height:'auto'
+            }}
+            width={10}
+            height={10}
+            />
         </div>
     </div>
   )

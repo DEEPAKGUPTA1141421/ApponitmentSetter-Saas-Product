@@ -70,14 +70,14 @@ export const useSignUpForm = () => {
             signUp.createdUserId,
             values.type
           )
-
+          console.log("registered",registered);
           if (registered?.status == 200 && registered.user) {
             await setActive({
               session: completeSignUp.createdSessionId,
             })
 
             setLoading(false)
-            router.push('/dashboard')
+            router.push('/settings');
           }
 
           if (registered?.status == 400) {

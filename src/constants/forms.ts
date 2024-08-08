@@ -45,7 +45,6 @@ type UserRegistrationProps = {
       type: 'password',
     },
   ]
-  
   export const USER_LOGIN_FORM: UserRegistrationProps[] = [
     {
       id: '1',
